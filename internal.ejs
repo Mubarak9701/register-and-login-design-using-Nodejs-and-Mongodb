@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Item List</title>
+    <style type="text/css">
+    body{
+			margin: 0;
+			padding: 0;
+			background: url("C:\Users\Mubarak\Tiffian\views\Bg.png");
+			background-position: center;
+			font-family: sans-serif;
+		}
+        .qwe{
+            position: relative;
+            margin-top:10px;
+			margin-left: 200px;
+            margin-right: 200px;
+			padding-right: 250px;
+			padding-left: 200px;
+            outline: orange 5px;
+            align-content: center;
+        }
+        .a1{
+            margin-top:-25px;
+			margin-left: 100px;
+            outline: red 5px;
+            font-family: sans-serif;
+        }
+        .a2{
+            margin-top:0px;
+			margin-left: 400px;
+            outline: red 5px;
+            font-family: sans-serif;
+            font-style: inherit;
+        }
+        .a3{
+            margin-top:-25px;
+            font-family: sans-serif;
+			margin-left: 400px;
+            outline: red 5px;
+        }
+	</style>
+</head>
+<body style="background-image: url(C:\Users\Mubarak\Tiffian\views\Bg.png);">
+	<div class="ass">
+        <% data.forEach(function(dataname){ %>
+            <li class="qwe" style="border: 3px solid orange">
+              <td class="a1"><h2><%= dataname.name%></h2></td>
+              <td class="a2"><h4><%= dataname.desc%></h4></td>
+              <td class="a3"><h4><%= dataname.price%></h4></td>
+              
+            </li>
+         
+         <% }) %>
+         </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+[
+    {
+        "name":"Ice Cream",
+        "desc":"100g cold Ice cream",
+        "price":"Rs.30"
+    },
+    {
+        "name":"5 starChocolate",
+        "desc":"50 g",
+        "price":"Rs.50"
+    },
+    {
+        "name":"Mixed Chocolate Box",
+        "desc":"contains multiple/various types of chocolates",
+        "price":"Rs.200"
+    },
+    {
+        "name":"Tiger Biscuit",
+        "desc":"pack of 20",
+        "price":"Rs.10"
+    },
+    {
+        "name":"Maaza",
+        "desc":"one litre Maaza bottle",
+        "price":"Rs.80"
+    }
+]

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<style type="text/css">
+		body{
+			margin: 0;
+			padding: 0;
+			background: url("C:\Users\Mubarak\Tiffian\views\Bg.png");
+			background-size: cover;
+			background-position: center;
+			font-family: sans-serif;
+		}
+		.abcd{
+			margin-top:200px;
+			margin-left: 400px;
+			border: #4caf50 5px;
+			padding-right: 450px;
+			padding-left: 200px;
+		}
+		.form-control{
+			outline: orange;
+			align-content: center;
+			height: 40px;
+			color: black;
+			font-size: 16px;
+			border: orange 10px;
+			border-bottom: 1px solid #4caf50;
+			border-radius: 20px;
+		}
+		.abcd p{
+    		margin: 0;
+   			padding: 0;
+    		font-weight: bold;
+		}
+		.abcd input[type="submit"]
+		{
+			border: none;
+			outline: none;
+			height: 40px;
+			background: orange;
+			color: #fff;
+			font-size: 18px;
+			border-radius: 20px;
+		}
+		.abcd input[type="submit"]:hover
+        {
+            cursor: pointer;
+            background:orange;
+            color: #000;
+        }
+	</style>
+</head>
+<body>
+	<div class="abcd">
+<form action="/user/mobile" method="post">
+    <p>Mobile Number</p>
+    <input class="form-control" type="number" name="mobilenumber" placeholder="Enter Your Mobile Number"><br>
+    <input class="btn btn-primary" type="submit" value="Proceed">
+</form>
+    </div>
+</body>

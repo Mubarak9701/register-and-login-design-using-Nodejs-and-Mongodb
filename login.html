@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register-Users</title>
+	<style type="text/css">
+		body{
+            padding: 5px 0;
+			margin: 8px 0;
+            background: url('image.jpg');
+			background-image: image('Bg.png');
+            background-size: cover;
+            background-position: center;
+            font-family: sans-serif;
+        }
+		.abcd{
+			margin-top:200px;
+			margin-left: 400px;
+			border: #4caf50 5px;
+			padding-right: 450px;
+			padding-left: 200px;
+		}
+		.form-control{
+			outline: orange;
+			align-content: center;
+			height: 40px;
+			color: black;
+			font-size: 16px;
+			border: orange 5px;
+			border-bottom: 1px solid #4caf50;
+		}
+		.abcd p{
+    		margin: 0;
+   			padding: 0;
+    		font-weight: bold;
+		}
+		.abcd input[type="submit"]
+		{
+			border: none;
+			outline: none;
+			height: 40px;
+			background: orange;
+			color: #fff;
+			font-size: 18px;
+			border-radius: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="abcd">
+<form action="/user/login" method="post">
+	<p>Mobile Number</p>
+	<input class="form-control" type="textfield" name="username" placeholder="Enter Your Username"><br>
+	<p>Password</p>
+	<input class="form-control" type="password" name="password" placeholder="Password"><br>
+	
+	<input class="btn btn-primary" type="submit" value="Register">
+	<p class="asd">Already have an account? &nbsp;<a href="/user/signin" type="submit">Sign up</a></p>
+	
+	
+</form>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register-Users</title>
+	<style type="text/css">
+		body{
+			margin: 0;
+			padding: 0;
+			background: url("C:\Users\Mubarak\Tiffian\views\Bg.png");
+			background-size: cover;
+			background-position: center;
+			font-family: sans-serif;
+		}
+		.abcd{
+			margin-top:200px;
+			margin-left: 400px;
+			border: #4caf50 5px;
+			padding-right: 450px;
+			padding-left: 200px;
+		}
+		.form-control{
+			outline: orange;
+			align-content: center;
+			height: 40px;
+			color: black;
+			font-size: 16px;
+			border: orange 10px;
+			border-bottom: 1px solid #4caf50;
+			border-radius: 20px;
+		}
+		.abcd p{
+    		margin: 0;
+   			padding: 0;
+    		font-weight: bold;
+		}
+		.abcd input[type="submit"]
+		{
+			border: none;
+			outline: none;
+			height: 40px;
+			background: orange;
+			color: #fff;
+			font-size: 18px;
+			border-radius: 20px;
+		}
+		.avatar{
+			width:500px;
+			height: 500px;
+			position: absolute;
+			top: 100px;
+			left: calc(40% - 100px);
+		}
+	</style>
+</head>
+<body>
+	<div class="abcd">
+<form action="/vendor/register" method="post">
+	<p>Name</p>
+	<input class="form-control" type="text" name="name" placeholder="Enter your name"><br>
+    <p>Pincode</p>
+	<input class="form-control" type="pincode" name="pincode" placeholder="Enter your city pincode"><br>
+	<p>Password</p>
+	<input class="form-control" type="password" name="password" placeholder="set the Password"><br>
+	
+	<input class="btn btn-primary" type="submit" value="Register">
+	<p class="asd">Already have an account? &nbsp;<a href="/vendor/signin" type="submit">Login</a></p>
+	
+	
+</form>
+
+</div>
+
+</body>
+</html>
