@@ -20,7 +20,7 @@
     "express-session": "^1.17.1",
     "express-validator": "^6.6.0",
     "flash": "^1.1.0",
-    "handlebars": "^4.7.6",
+    "handlebars": "^4.7.7",
     "mongojs": "^3.1.0",
     "mongoose": "^5.9.22",
     "mongoose-type-email": "^1.0.12",
